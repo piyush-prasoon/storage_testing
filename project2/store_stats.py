@@ -47,7 +47,7 @@ def get_device_details(device):
             for dev_obj in context.list_devices(subsystem="block"): #checks for all the systems in the storage 
                 if dev_obj.device_node == device_path: #looks for th specific device for which we require the status of.
                     dev = dev_obj
-                    logger.info(f'{device} found: collecting info..')
+                    logger.info(f'{device} found: collecting info------------------------------------------------------------')
                     break
 
             else:
