@@ -1,99 +1,79 @@
-2025-03-03 13:40:28,944 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:40:28,949 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:40:28,949 - ERROR - error fetching details for /dev/nvme0n1:type str doesn't define __round__ method
-2025-03-03 13:40:29,951 - INFO - system stats: cpu usage: 0.0,memory usage: 59.47265625
-2025-03-03 13:40:29,961 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:40:29,968 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:40:29,968 - ERROR - error fetching details for /dev/nvme0n1p1:type str doesn't define __round__ method
-2025-03-03 13:40:30,970 - INFO - system stats: cpu usage: 0.0,memory usage: 59.578125
-2025-03-03 13:40:30,984 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:40:30,992 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:40:30,992 - ERROR - error fetching details for /dev/nvme0n1p2:type str doesn't define __round__ method
-2025-03-03 13:40:31,994 - INFO - system stats: cpu usage: 0.0,memory usage: 59.625
-2025-03-03 13:40:32,004 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:40:32,014 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:40:32,015 - ERROR - error fetching details for /dev/nvme0n1:type str doesn't define __round__ method
-2025-03-03 13:40:33,017 - INFO - system stats: cpu usage: 0.0,memory usage: 59.68359375
-2025-03-03 13:40:33,029 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:40:33,037 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:40:33,038 - ERROR - error fetching details for /dev/nvme0n1p1:type str doesn't define __round__ method
-2025-03-03 13:40:34,040 - INFO - system stats: cpu usage: 0.0,memory usage: 59.68359375
-2025-03-03 13:40:34,049 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:40:34,059 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:40:34,060 - ERROR - error fetching details for /dev/nvme0n1p2:type str doesn't define __round__ method
-2025-03-03 13:40:35,062 - INFO - system stats: cpu usage: 0.0,memory usage: 59.68359375
-2025-03-03 13:40:35,071 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:40:35,082 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:40:35,082 - ERROR - error fetching details for /dev/nvme0n1:type str doesn't define __round__ method
-2025-03-03 13:40:36,084 - INFO - system stats: cpu usage: 0.0,memory usage: 59.68359375
-2025-03-03 13:40:36,101 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:40:36,111 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:40:36,111 - ERROR - error fetching details for /dev/nvme0n1p1:type str doesn't define __round__ method
-2025-03-03 13:40:37,113 - INFO - system stats: cpu usage: 0.0,memory usage: 59.68359375
-2025-03-03 13:40:37,128 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:40:37,135 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:40:37,135 - ERROR - error fetching details for /dev/nvme0n1p2:type str doesn't define __round__ method
-2025-03-03 13:41:02,083 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:41:02,087 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:41:02,087 - INFO - total size: 476.94
-2025-03-03 13:41:02,087 - INFO - filesystem: Unknown
-2025-03-03 13:41:02,127 - INFO - temperature of /dev/nvme0n1 found:29
-2025-03-03 13:41:02,184 - INFO - data for /dev/nvme0n1 entered into excel sheet.
-2025-03-03 13:41:03,186 - INFO - system stats: cpu usage: 0.0,memory usage: 67.25390625
-2025-03-03 13:41:03,200 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:41:03,205 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:41:03,205 - INFO - total size: 1.05
-2025-03-03 13:41:03,205 - INFO - filesystem: vfat
-2025-03-03 13:41:03,247 - INFO - temperature of /dev/nvme0n1p1 found:29
-2025-03-03 13:41:03,267 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
-2025-03-03 13:41:04,271 - INFO - system stats: cpu usage: 0.0,memory usage: 67.49609375
-2025-03-03 13:41:04,281 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:41:04,287 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:41:04,287 - INFO - total size: 475.89
-2025-03-03 13:41:04,287 - INFO - filesystem: ext4
-2025-03-03 13:41:04,348 - INFO - temperature of /dev/nvme0n1p2 found:29
-2025-03-03 13:41:04,362 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
-2025-03-03 13:41:05,364 - INFO - system stats: cpu usage: 0.0,memory usage: 67.6171875
-2025-03-03 13:41:05,368 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:41:05,373 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:41:05,373 - INFO - total size: 476.94
-2025-03-03 13:41:05,374 - INFO - filesystem: Unknown
-2025-03-03 13:41:05,410 - INFO - temperature of /dev/nvme0n1 found:29
-2025-03-03 13:41:05,422 - INFO - data for /dev/nvme0n1 entered into excel sheet.
-2025-03-03 13:41:06,424 - INFO - system stats: cpu usage: 0.0,memory usage: 67.69921875
-2025-03-03 13:41:06,434 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:41:06,441 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:41:06,441 - INFO - total size: 1.05
-2025-03-03 13:41:06,441 - INFO - filesystem: vfat
-2025-03-03 13:41:06,479 - INFO - temperature of /dev/nvme0n1p1 found:29
-2025-03-03 13:41:06,491 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
-2025-03-03 13:41:07,492 - INFO - system stats: cpu usage: 0.0,memory usage: 67.71484375
-2025-03-03 13:41:07,503 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:41:07,514 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:41:07,514 - INFO - total size: 475.89
-2025-03-03 13:41:07,514 - INFO - filesystem: ext4
-2025-03-03 13:41:07,555 - INFO - temperature of /dev/nvme0n1p2 found:30
-2025-03-03 13:41:07,572 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
-2025-03-03 13:41:08,575 - INFO - system stats: cpu usage: 0.0,memory usage: 67.71484375
-2025-03-03 13:41:08,586 - INFO - /dev/nvme0n1 found: collecting info..
-2025-03-03 13:41:08,598 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
-2025-03-03 13:41:08,598 - INFO - total size: 476.94
-2025-03-03 13:41:08,598 - INFO - filesystem: Unknown
-2025-03-03 13:41:08,640 - INFO - temperature of /dev/nvme0n1 found:30
-2025-03-03 13:41:08,661 - INFO - data for /dev/nvme0n1 entered into excel sheet.
-2025-03-03 13:41:09,662 - INFO - system stats: cpu usage: 0.0,memory usage: 67.71484375
-2025-03-03 13:41:09,676 - INFO - /dev/nvme0n1p1 found: collecting info..
-2025-03-03 13:41:09,684 - INFO - partititons on /dev/nvme0n1p1 : None
-2025-03-03 13:41:09,685 - INFO - total size: 1.05
-2025-03-03 13:41:09,685 - INFO - filesystem: vfat
-2025-03-03 13:41:09,723 - INFO - temperature of /dev/nvme0n1p1 found:30
-2025-03-03 13:41:09,735 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
-2025-03-03 13:41:10,736 - INFO - system stats: cpu usage: 0.0,memory usage: 67.7421875
-2025-03-03 13:41:10,759 - INFO - /dev/nvme0n1p2 found: collecting info..
-2025-03-03 13:41:10,767 - INFO - partititons on /dev/nvme0n1p2 : None
-2025-03-03 13:41:10,768 - INFO - total size: 475.89
-2025-03-03 13:41:10,768 - INFO - filesystem: ext4
-2025-03-03 13:41:10,807 - INFO - temperature of /dev/nvme0n1p2 found:30
-2025-03-03 13:41:10,820 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
-2025-03-03 13:41:11,822 - INFO - system stats: cpu usage: 0.0,memory usage: 67.859375
-2025-03-03 13:41:11,822 - INFO - END
+2025-03-05 16:22:01,687 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:01,688 - INFO - device info fecthed successfully
+2025-03-05 16:22:01,692 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:22:01,692 - INFO - total size: 476.94
+2025-03-05 16:22:01,692 - INFO - filesystem: Unknown
+2025-03-05 16:22:01,733 - INFO - temperature of /dev/nvme0n1 found:31
+2025-03-05 16:22:01,793 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:22:02,794 - INFO - system stats: cpu usage: 0.0,memory usage: 66.921875
+2025-03-05 16:22:02,805 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:02,806 - INFO - device info fecthed successfully
+2025-03-05 16:22:02,817 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:22:02,818 - INFO - total size: 1.05
+2025-03-05 16:22:02,818 - INFO - filesystem: vfat
+2025-03-05 16:22:02,879 - INFO - temperature of /dev/nvme0n1p1 found:31
+2025-03-05 16:22:02,881 - INFO - free sapce recorded: 1.04
+2025-03-05 16:22:02,896 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:22:03,898 - INFO - system stats: cpu usage: 0.0,memory usage: 67.171875
+2025-03-05 16:22:03,911 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:03,912 - INFO - device info fecthed successfully
+2025-03-05 16:22:03,919 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:22:03,920 - INFO - total size: 475.89
+2025-03-05 16:22:03,920 - INFO - filesystem: ext4
+2025-03-05 16:22:03,959 - INFO - temperature of /dev/nvme0n1p2 found:31
+2025-03-05 16:22:03,962 - INFO - free sapce recorded: 424.0
+2025-03-05 16:22:03,978 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:22:04,980 - INFO - system stats: cpu usage: 0.0,memory usage: 67.28515625
+2025-03-05 16:22:04,999 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:05,000 - INFO - device info fecthed successfully
+2025-03-05 16:22:05,010 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:22:05,010 - INFO - total size: 476.94
+2025-03-05 16:22:05,010 - INFO - filesystem: Unknown
+2025-03-05 16:22:05,048 - INFO - temperature of /dev/nvme0n1 found:31
+2025-03-05 16:22:05,062 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:22:06,063 - INFO - system stats: cpu usage: 0.0,memory usage: 67.390625
+2025-03-05 16:22:06,071 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:06,071 - INFO - device info fecthed successfully
+2025-03-05 16:22:06,084 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:22:06,084 - INFO - total size: 1.05
+2025-03-05 16:22:06,084 - INFO - filesystem: vfat
+2025-03-05 16:22:06,124 - INFO - temperature of /dev/nvme0n1p1 found:32
+2025-03-05 16:22:06,124 - INFO - free sapce recorded: 1.04
+2025-03-05 16:22:06,142 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:22:07,144 - INFO - system stats: cpu usage: 0.0,memory usage: 67.4140625
+2025-03-05 16:22:07,154 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:07,155 - INFO - device info fecthed successfully
+2025-03-05 16:22:07,170 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:22:07,170 - INFO - total size: 475.89
+2025-03-05 16:22:07,170 - INFO - filesystem: ext4
+2025-03-05 16:22:07,211 - INFO - temperature of /dev/nvme0n1p2 found:32
+2025-03-05 16:22:07,214 - INFO - free sapce recorded: 424.0
+2025-03-05 16:22:07,234 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:22:08,236 - INFO - system stats: cpu usage: 0.0,memory usage: 67.4140625
+2025-03-05 16:22:08,248 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:08,249 - INFO - device info fecthed successfully
+2025-03-05 16:22:08,257 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:22:08,258 - INFO - total size: 476.94
+2025-03-05 16:22:08,258 - INFO - filesystem: Unknown
+2025-03-05 16:22:08,300 - INFO - temperature of /dev/nvme0n1 found:32
+2025-03-05 16:22:08,322 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:22:09,324 - INFO - system stats: cpu usage: 0.0,memory usage: 67.4140625
+2025-03-05 16:22:09,338 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:09,338 - INFO - device info fecthed successfully
+2025-03-05 16:22:09,348 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:22:09,348 - INFO - total size: 1.05
+2025-03-05 16:22:09,348 - INFO - filesystem: vfat
+2025-03-05 16:22:09,388 - INFO - temperature of /dev/nvme0n1p1 found:32
+2025-03-05 16:22:09,390 - INFO - free sapce recorded: 1.04
+2025-03-05 16:22:09,409 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:22:10,411 - INFO - system stats: cpu usage: 1.0,memory usage: 67.453125
+2025-03-05 16:22:10,420 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:22:10,420 - INFO - device info fecthed successfully
+2025-03-05 16:22:10,424 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:22:10,424 - INFO - total size: 475.89
+2025-03-05 16:22:10,424 - INFO - filesystem: ext4
+2025-03-05 16:22:10,463 - INFO - temperature of /dev/nvme0n1p2 found:32
+2025-03-05 16:22:10,464 - INFO - free sapce recorded: 424.0
+2025-03-05 16:22:10,479 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:22:11,480 - INFO - system stats: cpu usage: 0.0,memory usage: 67.578125
+2025-03-05 16:22:11,481 - INFO - END
