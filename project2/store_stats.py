@@ -11,7 +11,7 @@ from datetime import datetime
 import uuid
 
 # Initialize an empty DataFrame with relevant columns
-df = pd.DataFrame(columns=["Device", "Model", "Serial Number", "Device Type", "Partitions", "Sector Size", "Total Sectors", "Size (Gigabytes)","Filesystem type","Temperature"])
+df = pd.DataFrame(columns=["Device", "Model", "Serial Number", "Device Type", "Partitions", "Sector Size", "Total Sectors", "Size (Gigabytes)","Filesystem type","Temperature(Celsius)"])
 
 
 def get_sectors(device):
@@ -72,6 +72,16 @@ def get_device_details(device):
             logger.info(f"filesystem: {filesys}")
 
             tempr=get_temp(device)
+            mount_point = None
+            for partition in psutil.disk_partitions(all=True):
+                if partition.device == device:
+                    mount_point = partition.mountpoint
+                    break
+
+            if mount_point:
+                free_space = psutil.disk_usage(mount_point).free / (1024**3)  # Convert to GB
+            else:
+                free_space = "Unknown"  
 
 
             # Store details in data in the form of a dictionary
@@ -86,8 +96,9 @@ def get_device_details(device):
                 "Sector Size": sector_size,
                 "Total Sectors": total_sectors,
                 "Size (Gigabytes)": size,
+                "Free space(GB)": free_space,
                 "Filesystem type": filesys,
-                "Temperature" : tempr
+                "Temperature(Celsius)" : tempr
             }
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True) #entering the values of data into a dataframe
             df.to_excel("storage details.xlsx", index=False) # converting th edataframe into an excel 
