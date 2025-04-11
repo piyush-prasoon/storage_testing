@@ -1,0 +1,562 @@
+2025-03-05 16:31:04,538 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:04,538 - INFO - device info fecthed successfully
+2025-03-05 16:31:04,543 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:31:04,543 - INFO - total size: 476.94
+2025-03-05 16:31:04,543 - INFO - filesystem: Unknown
+2025-03-05 16:31:04,582 - INFO - temperature of /dev/nvme0n1 found:31
+2025-03-05 16:31:04,650 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:31:05,652 - INFO - system stats: cpu usage: 0.0,memory usage: 67.125
+2025-03-05 16:31:05,662 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:05,662 - INFO - device info fecthed successfully
+2025-03-05 16:31:05,669 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:31:05,669 - INFO - total size: 1.05
+2025-03-05 16:31:05,669 - INFO - filesystem: vfat
+2025-03-05 16:31:05,709 - INFO - temperature of /dev/nvme0n1p1 found:31
+2025-03-05 16:31:05,710 - INFO - free sapce recorded: 1.04
+2025-03-05 16:31:05,724 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:31:06,725 - INFO - system stats: cpu usage: 0.0,memory usage: 67.375
+2025-03-05 16:31:06,734 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:06,735 - INFO - device info fecthed successfully
+2025-03-05 16:31:06,743 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:31:06,744 - INFO - total size: 475.89
+2025-03-05 16:31:06,744 - INFO - filesystem: ext4
+2025-03-05 16:31:06,784 - INFO - temperature of /dev/nvme0n1p2 found:31
+2025-03-05 16:31:06,786 - INFO - free sapce recorded: 424.0
+2025-03-05 16:31:06,798 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:31:07,799 - INFO - system stats: cpu usage: 0.0,memory usage: 67.484375
+2025-03-05 16:31:07,809 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:07,810 - INFO - device info fecthed successfully
+2025-03-05 16:31:07,818 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:31:07,819 - INFO - total size: 476.94
+2025-03-05 16:31:07,819 - INFO - filesystem: Unknown
+2025-03-05 16:31:07,885 - INFO - temperature of /dev/nvme0n1 found:31
+2025-03-05 16:31:07,905 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:31:08,907 - INFO - system stats: cpu usage: 0.0,memory usage: 67.59765625
+2025-03-05 16:31:08,924 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:08,925 - INFO - device info fecthed successfully
+2025-03-05 16:31:08,934 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:31:08,935 - INFO - total size: 1.05
+2025-03-05 16:31:08,935 - INFO - filesystem: vfat
+2025-03-05 16:31:08,975 - INFO - temperature of /dev/nvme0n1p1 found:31
+2025-03-05 16:31:08,976 - INFO - free sapce recorded: 1.04
+2025-03-05 16:31:08,990 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:31:09,991 - INFO - system stats: cpu usage: 0.0,memory usage: 67.6171875
+2025-03-05 16:31:10,004 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:10,004 - INFO - device info fecthed successfully
+2025-03-05 16:31:10,014 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:31:10,014 - INFO - total size: 475.89
+2025-03-05 16:31:10,014 - INFO - filesystem: ext4
+2025-03-05 16:31:10,057 - INFO - temperature of /dev/nvme0n1p2 found:31
+2025-03-05 16:31:10,058 - INFO - free sapce recorded: 424.0
+2025-03-05 16:31:10,071 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:31:11,073 - INFO - system stats: cpu usage: 0.0,memory usage: 67.6171875
+2025-03-05 16:31:11,085 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:11,087 - INFO - device info fecthed successfully
+2025-03-05 16:31:11,097 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-05 16:31:11,097 - INFO - total size: 476.94
+2025-03-05 16:31:11,097 - INFO - filesystem: Unknown
+2025-03-05 16:31:11,139 - INFO - temperature of /dev/nvme0n1 found:31
+2025-03-05 16:31:11,153 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-05 16:31:12,155 - INFO - system stats: cpu usage: 0.0,memory usage: 67.6171875
+2025-03-05 16:31:12,164 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:12,164 - INFO - device info fecthed successfully
+2025-03-05 16:31:12,176 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-05 16:31:12,176 - INFO - total size: 1.05
+2025-03-05 16:31:12,176 - INFO - filesystem: vfat
+2025-03-05 16:31:12,217 - INFO - temperature of /dev/nvme0n1p1 found:31
+2025-03-05 16:31:12,220 - INFO - free sapce recorded: 1.04
+2025-03-05 16:31:12,241 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-05 16:31:13,243 - INFO - system stats: cpu usage: 1.0,memory usage: 67.66015625
+2025-03-05 16:31:13,260 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-05 16:31:13,260 - INFO - device info fecthed successfully
+2025-03-05 16:31:13,271 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-05 16:31:13,272 - INFO - total size: 475.89
+2025-03-05 16:31:13,272 - INFO - filesystem: ext4
+2025-03-05 16:31:13,313 - INFO - temperature of /dev/nvme0n1p2 found:32
+2025-03-05 16:31:13,316 - INFO - free sapce recorded: 424.0
+2025-03-05 16:31:13,332 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-05 16:31:14,334 - INFO - system stats: cpu usage: 0.0,memory usage: 67.828125
+2025-03-05 16:31:14,334 - INFO - END
+2025-03-14 13:36:49,252 - INFO - END
+2025-03-14 13:37:06,697 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:06,698 - INFO - device info fecthed successfully
+2025-03-14 13:37:06,701 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-14 13:37:06,702 - INFO - total size: 476.94
+2025-03-14 13:37:06,702 - INFO - filesystem: Unknown
+2025-03-14 13:37:06,702 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:06,954 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-14 13:37:07,955 - INFO - system stats: cpu usage: 0.0,memory usage: 84.65625
+2025-03-14 13:37:07,960 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:07,961 - INFO - device info fecthed successfully
+2025-03-14 13:37:07,966 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-14 13:37:07,966 - INFO - total size: 1.05
+2025-03-14 13:37:07,967 - INFO - filesystem: vfat
+2025-03-14 13:37:07,968 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:07,982 - INFO - free sapce recorded: 1.04
+2025-03-14 13:37:07,995 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-14 13:37:08,997 - INFO - system stats: cpu usage: 0.0,memory usage: 84.90625
+2025-03-14 13:37:09,003 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:09,003 - INFO - device info fecthed successfully
+2025-03-14 13:37:09,009 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-14 13:37:09,009 - INFO - total size: 475.89
+2025-03-14 13:37:09,010 - INFO - filesystem: ext4
+2025-03-14 13:37:09,011 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:09,027 - INFO - free sapce recorded: 428.98
+2025-03-14 13:37:09,043 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-14 13:37:10,044 - INFO - system stats: cpu usage: 0.0,memory usage: 85.03125
+2025-03-14 13:37:10,050 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:10,050 - INFO - device info fecthed successfully
+2025-03-14 13:37:10,056 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-14 13:37:10,056 - INFO - total size: 476.94
+2025-03-14 13:37:10,057 - INFO - filesystem: Unknown
+2025-03-14 13:37:10,060 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:10,095 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-14 13:37:11,096 - INFO - system stats: cpu usage: 0.0,memory usage: 85.15625
+2025-03-14 13:37:11,101 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:11,101 - INFO - device info fecthed successfully
+2025-03-14 13:37:11,107 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-14 13:37:11,107 - INFO - total size: 1.05
+2025-03-14 13:37:11,107 - INFO - filesystem: vfat
+2025-03-14 13:37:11,108 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:11,124 - INFO - free sapce recorded: 1.04
+2025-03-14 13:37:11,146 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-14 13:37:12,148 - INFO - system stats: cpu usage: 0.0,memory usage: 85.15625
+2025-03-14 13:37:12,153 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:12,153 - INFO - device info fecthed successfully
+2025-03-14 13:37:12,159 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-14 13:37:12,159 - INFO - total size: 475.89
+2025-03-14 13:37:12,159 - INFO - filesystem: ext4
+2025-03-14 13:37:12,160 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:12,176 - INFO - free sapce recorded: 428.98
+2025-03-14 13:37:12,195 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-14 13:37:13,197 - INFO - system stats: cpu usage: 0.0,memory usage: 85.15625
+2025-03-14 13:37:13,202 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:13,203 - INFO - device info fecthed successfully
+2025-03-14 13:37:13,209 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-14 13:37:13,209 - INFO - total size: 476.94
+2025-03-14 13:37:13,209 - INFO - filesystem: Unknown
+2025-03-14 13:37:13,210 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:13,245 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-14 13:37:14,246 - INFO - system stats: cpu usage: 0.0,memory usage: 85.28125
+2025-03-14 13:37:14,252 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:14,253 - INFO - device info fecthed successfully
+2025-03-14 13:37:14,259 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-14 13:37:14,259 - INFO - total size: 1.05
+2025-03-14 13:37:14,259 - INFO - filesystem: vfat
+2025-03-14 13:37:14,260 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:14,277 - INFO - free sapce recorded: 1.04
+2025-03-14 13:37:14,295 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-14 13:37:15,297 - INFO - system stats: cpu usage: 0.0,memory usage: 85.40625
+2025-03-14 13:37:15,303 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-14 13:37:15,304 - INFO - device info fecthed successfully
+2025-03-14 13:37:15,309 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-14 13:37:15,310 - INFO - total size: 475.89
+2025-03-14 13:37:15,310 - INFO - filesystem: ext4
+2025-03-14 13:37:15,311 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-14 13:37:15,327 - INFO - free sapce recorded: 428.98
+2025-03-14 13:37:15,347 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-14 13:37:16,348 - INFO - system stats: cpu usage: 0.0,memory usage: 85.53125
+2025-03-14 13:37:16,348 - INFO - END
+2025-03-20 10:30:31,896 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:31,896 - INFO - device info fecthed successfully
+2025-03-20 10:30:31,899 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:30:31,899 - ERROR - error fetching details for /dev/nvme0n1:type str doesn't define __round__ method
+2025-03-20 10:30:32,900 - INFO - system stats: cpu usage: 0.0,memory usage: 66.84375
+2025-03-20 10:30:32,906 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:32,906 - INFO - device info fecthed successfully
+2025-03-20 10:30:32,916 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:30:32,916 - ERROR - error fetching details for /dev/nvme0n1p1:type str doesn't define __round__ method
+2025-03-20 10:30:33,917 - INFO - system stats: cpu usage: 0.0,memory usage: 66.96875
+2025-03-20 10:30:33,924 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:33,924 - INFO - device info fecthed successfully
+2025-03-20 10:30:33,931 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:30:33,931 - ERROR - error fetching details for /dev/nvme0n1p2:type str doesn't define __round__ method
+2025-03-20 10:30:34,932 - INFO - system stats: cpu usage: 0.0,memory usage: 67.09375
+2025-03-20 10:30:34,939 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:30:34,940 - INFO - device info fecthed successfully
+2025-03-20 10:30:34,947 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:30:34,947 - ERROR - error fetching details for /dev/sda:type str doesn't define __round__ method
+2025-03-20 10:30:45,579 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:45,579 - INFO - device info fecthed successfully
+2025-03-20 10:30:45,582 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:30:45,582 - INFO - total size: 476.94
+2025-03-20 10:30:45,582 - INFO - filesystem: Unknown
+2025-03-20 10:30:45,583 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:45,720 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:30:46,721 - INFO - system stats: cpu usage: 0.0,memory usage: 85.2109375
+2025-03-20 10:30:46,727 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:46,728 - INFO - device info fecthed successfully
+2025-03-20 10:30:46,736 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:30:46,736 - INFO - total size: 1.05
+2025-03-20 10:30:46,736 - INFO - filesystem: vfat
+2025-03-20 10:30:46,737 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:46,751 - INFO - free sapce recorded: 1.04
+2025-03-20 10:30:46,763 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:30:47,764 - INFO - system stats: cpu usage: 0.0,memory usage: 85.4609375
+2025-03-20 10:30:47,772 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:47,772 - INFO - device info fecthed successfully
+2025-03-20 10:30:47,780 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:30:47,780 - INFO - total size: 475.89
+2025-03-20 10:30:47,780 - INFO - filesystem: ext4
+2025-03-20 10:30:47,780 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:47,794 - INFO - free sapce recorded: 386.57
+2025-03-20 10:30:47,805 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:30:48,806 - INFO - system stats: cpu usage: 0.0,memory usage: 85.5859375
+2025-03-20 10:30:48,815 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:30:48,815 - INFO - device info fecthed successfully
+2025-03-20 10:30:48,822 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:30:48,822 - INFO - total size: 114.6
+2025-03-20 10:30:48,822 - INFO - filesystem: Unknown
+2025-03-20 10:30:48,823 - ERROR - Error retrieving temperature for /dev/sda: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:48,870 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:30:49,871 - INFO - system stats: cpu usage: 0.0,memory usage: 85.7109375
+2025-03-20 10:30:49,881 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:49,882 - INFO - device info fecthed successfully
+2025-03-20 10:30:49,888 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:30:49,888 - INFO - total size: 114.6
+2025-03-20 10:30:49,888 - INFO - filesystem: vfat
+2025-03-20 10:30:49,889 - ERROR - Error retrieving temperature for /dev/sda1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:49,902 - INFO - free sapce recorded: 114.57
+2025-03-20 10:30:49,915 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:30:50,916 - INFO - system stats: cpu usage: 0.0,memory usage: 85.7109375
+2025-03-20 10:30:50,922 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:50,922 - INFO - device info fecthed successfully
+2025-03-20 10:30:50,929 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:30:50,929 - INFO - total size: 476.94
+2025-03-20 10:30:50,929 - INFO - filesystem: Unknown
+2025-03-20 10:30:50,930 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:50,955 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:30:51,956 - INFO - system stats: cpu usage: 0.0,memory usage: 85.7109375
+2025-03-20 10:30:51,963 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:51,963 - INFO - device info fecthed successfully
+2025-03-20 10:30:51,971 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:30:51,971 - INFO - total size: 1.05
+2025-03-20 10:30:51,971 - INFO - filesystem: vfat
+2025-03-20 10:30:51,971 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:51,985 - INFO - free sapce recorded: 1.04
+2025-03-20 10:30:51,996 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:30:52,996 - INFO - system stats: cpu usage: 0.0,memory usage: 85.8359375
+2025-03-20 10:30:53,002 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:53,003 - INFO - device info fecthed successfully
+2025-03-20 10:30:53,010 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:30:53,010 - INFO - total size: 475.89
+2025-03-20 10:30:53,010 - INFO - filesystem: ext4
+2025-03-20 10:30:53,011 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:53,025 - INFO - free sapce recorded: 386.57
+2025-03-20 10:30:53,037 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:30:54,038 - INFO - system stats: cpu usage: 0.0,memory usage: 85.9609375
+2025-03-20 10:30:54,045 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:30:54,045 - INFO - device info fecthed successfully
+2025-03-20 10:30:54,052 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:30:54,053 - INFO - total size: 114.6
+2025-03-20 10:30:54,053 - INFO - filesystem: Unknown
+2025-03-20 10:30:54,054 - ERROR - Error retrieving temperature for /dev/sda: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:54,080 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:30:55,081 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:30:55,089 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:55,089 - INFO - device info fecthed successfully
+2025-03-20 10:30:55,097 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:30:55,097 - INFO - total size: 114.6
+2025-03-20 10:30:55,097 - INFO - filesystem: vfat
+2025-03-20 10:30:55,098 - ERROR - Error retrieving temperature for /dev/sda1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:55,112 - INFO - free sapce recorded: 114.57
+2025-03-20 10:30:55,125 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:30:56,125 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:30:56,128 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:56,129 - INFO - device info fecthed successfully
+2025-03-20 10:30:56,138 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:30:56,139 - INFO - total size: 476.94
+2025-03-20 10:30:56,139 - INFO - filesystem: Unknown
+2025-03-20 10:30:56,139 - ERROR - Error retrieving temperature for /dev/nvme0n1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:56,163 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:30:57,164 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:30:57,170 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:57,170 - INFO - device info fecthed successfully
+2025-03-20 10:30:57,177 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:30:57,177 - INFO - total size: 1.05
+2025-03-20 10:30:57,177 - INFO - filesystem: vfat
+2025-03-20 10:30:57,178 - ERROR - Error retrieving temperature for /dev/nvme0n1p1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:57,191 - INFO - free sapce recorded: 1.04
+2025-03-20 10:30:57,202 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:30:58,203 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:30:58,209 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:30:58,209 - INFO - device info fecthed successfully
+2025-03-20 10:30:58,216 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:30:58,216 - INFO - total size: 475.89
+2025-03-20 10:30:58,216 - INFO - filesystem: ext4
+2025-03-20 10:30:58,217 - ERROR - Error retrieving temperature for /dev/nvme0n1p2: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:58,230 - INFO - free sapce recorded: 386.57
+2025-03-20 10:30:58,241 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:30:59,242 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:30:59,250 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:30:59,251 - INFO - device info fecthed successfully
+2025-03-20 10:30:59,259 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:30:59,260 - INFO - total size: 114.6
+2025-03-20 10:30:59,260 - INFO - filesystem: Unknown
+2025-03-20 10:30:59,260 - ERROR - Error retrieving temperature for /dev/sda: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:30:59,311 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:31:00,313 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:31:00,321 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:31:00,321 - INFO - device info fecthed successfully
+2025-03-20 10:31:00,327 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:31:00,327 - INFO - total size: 114.6
+2025-03-20 10:31:00,327 - INFO - filesystem: vfat
+2025-03-20 10:31:00,328 - ERROR - Error retrieving temperature for /dev/sda1: [Errno 2] No such file or directory: 'smartctl'
+2025-03-20 10:31:00,342 - INFO - free sapce recorded: 114.57
+2025-03-20 10:31:00,357 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:31:01,359 - INFO - system stats: cpu usage: 0.0,memory usage: 86.0859375
+2025-03-20 10:31:01,359 - INFO - END
+2025-03-20 10:33:12,865 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:12,865 - INFO - device info fecthed successfully
+2025-03-20 10:33:12,868 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:33:12,868 - INFO - total size: 476.94
+2025-03-20 10:33:12,868 - INFO - filesystem: Unknown
+2025-03-20 10:33:12,905 - INFO - temperature of /dev/nvme0n1 found:33
+2025-03-20 10:33:13,008 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:33:14,009 - INFO - system stats: cpu usage: 0.0,memory usage: 85.109375
+2025-03-20 10:33:14,016 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:14,016 - INFO - device info fecthed successfully
+2025-03-20 10:33:14,024 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:33:14,024 - INFO - total size: 1.05
+2025-03-20 10:33:14,024 - INFO - filesystem: vfat
+2025-03-20 10:33:14,068 - INFO - temperature of /dev/nvme0n1p1 found:33
+2025-03-20 10:33:14,084 - INFO - free sapce recorded: 1.04
+2025-03-20 10:33:14,102 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:33:15,102 - INFO - system stats: cpu usage: 0.0,memory usage: 85.484375
+2025-03-20 10:33:15,105 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:15,105 - INFO - device info fecthed successfully
+2025-03-20 10:33:15,109 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:33:15,109 - INFO - total size: 475.89
+2025-03-20 10:33:15,109 - INFO - filesystem: ext4
+2025-03-20 10:33:15,150 - INFO - temperature of /dev/nvme0n1p2 found:33
+2025-03-20 10:33:15,165 - INFO - free sapce recorded: 386.56
+2025-03-20 10:33:15,179 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:33:16,180 - INFO - system stats: cpu usage: 0.0,memory usage: 85.734375
+2025-03-20 10:33:16,187 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:33:16,187 - INFO - device info fecthed successfully
+2025-03-20 10:33:16,194 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:33:16,195 - INFO - total size: 114.6
+2025-03-20 10:33:16,195 - INFO - filesystem: Unknown
+2025-03-20 10:33:16,217 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-20 10:33:16,242 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:33:17,243 - INFO - system stats: cpu usage: 0.0,memory usage: 85.734375
+2025-03-20 10:33:17,250 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:17,250 - INFO - device info fecthed successfully
+2025-03-20 10:33:17,257 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:33:17,257 - INFO - total size: 114.6
+2025-03-20 10:33:17,257 - INFO - filesystem: vfat
+2025-03-20 10:33:17,291 - INFO - free sapce recorded: 114.57
+2025-03-20 10:33:17,301 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:33:18,302 - INFO - system stats: cpu usage: 0.0,memory usage: 85.734375
+2025-03-20 10:33:18,309 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:18,310 - INFO - device info fecthed successfully
+2025-03-20 10:33:18,317 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:33:18,317 - INFO - total size: 476.94
+2025-03-20 10:33:18,317 - INFO - filesystem: Unknown
+2025-03-20 10:33:18,366 - INFO - temperature of /dev/nvme0n1 found:33
+2025-03-20 10:33:18,392 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:33:19,393 - INFO - system stats: cpu usage: 0.0,memory usage: 85.859375
+2025-03-20 10:33:19,400 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:19,401 - INFO - device info fecthed successfully
+2025-03-20 10:33:19,408 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:33:19,409 - INFO - total size: 1.05
+2025-03-20 10:33:19,409 - INFO - filesystem: vfat
+2025-03-20 10:33:19,471 - INFO - temperature of /dev/nvme0n1p1 found:33
+2025-03-20 10:33:19,486 - INFO - free sapce recorded: 1.04
+2025-03-20 10:33:19,499 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:33:20,500 - INFO - system stats: cpu usage: 0.0,memory usage: 86.109375
+2025-03-20 10:33:20,502 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:20,503 - INFO - device info fecthed successfully
+2025-03-20 10:33:20,506 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:33:20,506 - INFO - total size: 475.89
+2025-03-20 10:33:20,506 - INFO - filesystem: ext4
+2025-03-20 10:33:20,547 - INFO - temperature of /dev/nvme0n1p2 found:33
+2025-03-20 10:33:20,562 - INFO - free sapce recorded: 386.56
+2025-03-20 10:33:20,569 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:33:21,570 - INFO - system stats: cpu usage: 0.0,memory usage: 86.234375
+2025-03-20 10:33:21,576 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:33:21,576 - INFO - device info fecthed successfully
+2025-03-20 10:33:21,579 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:33:21,579 - INFO - total size: 114.6
+2025-03-20 10:33:21,579 - INFO - filesystem: Unknown
+2025-03-20 10:33:21,593 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-20 10:33:21,616 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:33:22,617 - INFO - system stats: cpu usage: 0.0,memory usage: 86.359375
+2025-03-20 10:33:22,625 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:22,625 - INFO - device info fecthed successfully
+2025-03-20 10:33:22,636 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:33:22,637 - INFO - total size: 114.6
+2025-03-20 10:33:22,637 - INFO - filesystem: vfat
+2025-03-20 10:33:22,681 - INFO - free sapce recorded: 114.57
+2025-03-20 10:33:22,697 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:33:23,698 - INFO - system stats: cpu usage: 0.0,memory usage: 86.359375
+2025-03-20 10:33:23,704 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:23,705 - INFO - device info fecthed successfully
+2025-03-20 10:33:23,712 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-20 10:33:23,712 - INFO - total size: 476.94
+2025-03-20 10:33:23,713 - INFO - filesystem: Unknown
+2025-03-20 10:33:23,759 - INFO - temperature of /dev/nvme0n1 found:33
+2025-03-20 10:33:23,787 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-20 10:33:24,788 - INFO - system stats: cpu usage: 0.0,memory usage: 86.359375
+2025-03-20 10:33:24,796 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:24,796 - INFO - device info fecthed successfully
+2025-03-20 10:33:24,802 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-20 10:33:24,803 - INFO - total size: 1.05
+2025-03-20 10:33:24,803 - INFO - filesystem: vfat
+2025-03-20 10:33:24,851 - INFO - temperature of /dev/nvme0n1p1 found:33
+2025-03-20 10:33:24,866 - INFO - free sapce recorded: 1.04
+2025-03-20 10:33:24,881 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-20 10:33:25,882 - INFO - system stats: cpu usage: 0.0,memory usage: 86.359375
+2025-03-20 10:33:25,891 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:25,892 - INFO - device info fecthed successfully
+2025-03-20 10:33:25,898 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-20 10:33:25,898 - INFO - total size: 475.89
+2025-03-20 10:33:25,898 - INFO - filesystem: ext4
+2025-03-20 10:33:25,954 - INFO - temperature of /dev/nvme0n1p2 found:33
+2025-03-20 10:33:25,968 - INFO - free sapce recorded: 386.56
+2025-03-20 10:33:25,982 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-20 10:33:26,983 - INFO - system stats: cpu usage: 0.0,memory usage: 86.359375
+2025-03-20 10:33:26,989 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-20 10:33:26,989 - INFO - device info fecthed successfully
+2025-03-20 10:33:26,995 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-20 10:33:26,996 - INFO - total size: 114.6
+2025-03-20 10:33:26,996 - INFO - filesystem: Unknown
+2025-03-20 10:33:27,016 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-20 10:33:27,043 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-20 10:33:28,045 - INFO - system stats: cpu usage: 0.0,memory usage: 86.484375
+2025-03-20 10:33:28,052 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-20 10:33:28,053 - INFO - device info fecthed successfully
+2025-03-20 10:33:28,060 - INFO - partititons on /dev/sda1 : None
+2025-03-20 10:33:28,061 - INFO - total size: 114.6
+2025-03-20 10:33:28,061 - INFO - filesystem: vfat
+2025-03-20 10:33:28,092 - INFO - free sapce recorded: 114.57
+2025-03-20 10:33:28,108 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-20 10:33:29,109 - INFO - system stats: cpu usage: 0.0,memory usage: 86.484375
+2025-03-20 10:33:29,110 - INFO - END
+2025-03-21 11:48:43,302 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:43,302 - INFO - device info fecthed successfully
+2025-03-21 11:48:43,306 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-21 11:48:43,306 - INFO - total size: 476.94
+2025-03-21 11:48:43,306 - INFO - filesystem: Unknown
+2025-03-21 11:48:43,344 - INFO - temperature of /dev/nvme0n1 found:34
+2025-03-21 11:48:43,463 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-21 11:48:44,465 - INFO - system stats: cpu usage: 0.0,memory usage: 84.58984375
+2025-03-21 11:48:44,470 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:44,470 - INFO - device info fecthed successfully
+2025-03-21 11:48:44,474 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-21 11:48:44,474 - INFO - total size: 1.05
+2025-03-21 11:48:44,474 - INFO - filesystem: vfat
+2025-03-21 11:48:44,519 - INFO - temperature of /dev/nvme0n1p1 found:34
+2025-03-21 11:48:44,534 - INFO - free sapce recorded: 1.04
+2025-03-21 11:48:44,547 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-21 11:48:45,548 - INFO - system stats: cpu usage: 0.0,memory usage: 84.71484375
+2025-03-21 11:48:45,556 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:45,556 - INFO - device info fecthed successfully
+2025-03-21 11:48:45,563 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-21 11:48:45,563 - INFO - total size: 475.89
+2025-03-21 11:48:45,563 - INFO - filesystem: ext4
+2025-03-21 11:48:45,610 - INFO - temperature of /dev/nvme0n1p2 found:34
+2025-03-21 11:48:45,627 - INFO - free sapce recorded: 380.45
+2025-03-21 11:48:45,643 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-21 11:48:46,645 - INFO - system stats: cpu usage: 1.0,memory usage: 84.83984375
+2025-03-21 11:48:46,651 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-21 11:48:46,651 - INFO - device info fecthed successfully
+2025-03-21 11:48:46,654 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-21 11:48:46,654 - INFO - total size: 114.6
+2025-03-21 11:48:46,654 - INFO - filesystem: Unknown
+2025-03-21 11:48:46,668 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-21 11:48:46,693 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-21 11:48:47,694 - INFO - system stats: cpu usage: 0.0,memory usage: 84.83984375
+2025-03-21 11:48:47,700 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:47,700 - INFO - device info fecthed successfully
+2025-03-21 11:48:47,703 - INFO - partititons on /dev/sda1 : None
+2025-03-21 11:48:47,704 - INFO - total size: 114.6
+2025-03-21 11:48:47,704 - INFO - filesystem: ext4
+2025-03-21 11:48:47,739 - INFO - free sapce recorded: 102.49
+2025-03-21 11:48:47,747 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-21 11:48:48,747 - INFO - system stats: cpu usage: 0.0,memory usage: 84.83984375
+2025-03-21 11:48:48,753 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:48,753 - INFO - device info fecthed successfully
+2025-03-21 11:48:48,756 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-21 11:48:48,756 - INFO - total size: 476.94
+2025-03-21 11:48:48,756 - INFO - filesystem: Unknown
+2025-03-21 11:48:48,805 - INFO - temperature of /dev/nvme0n1 found:34
+2025-03-21 11:48:48,834 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-21 11:48:49,835 - INFO - system stats: cpu usage: 0.0,memory usage: 85.08984375
+2025-03-21 11:48:49,841 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:49,841 - INFO - device info fecthed successfully
+2025-03-21 11:48:49,844 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-21 11:48:49,844 - INFO - total size: 1.05
+2025-03-21 11:48:49,844 - INFO - filesystem: vfat
+2025-03-21 11:48:49,890 - INFO - temperature of /dev/nvme0n1p1 found:34
+2025-03-21 11:48:49,906 - INFO - free sapce recorded: 1.04
+2025-03-21 11:48:49,920 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-21 11:48:50,921 - INFO - system stats: cpu usage: 0.0,memory usage: 85.21484375
+2025-03-21 11:48:50,928 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:50,928 - INFO - device info fecthed successfully
+2025-03-21 11:48:50,931 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-21 11:48:50,931 - INFO - total size: 475.89
+2025-03-21 11:48:50,931 - INFO - filesystem: ext4
+2025-03-21 11:48:50,974 - INFO - temperature of /dev/nvme0n1p2 found:34
+2025-03-21 11:48:50,989 - INFO - free sapce recorded: 380.45
+2025-03-21 11:48:51,002 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-21 11:48:52,003 - INFO - system stats: cpu usage: 0.0,memory usage: 85.33984375
+2025-03-21 11:48:52,011 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-21 11:48:52,011 - INFO - device info fecthed successfully
+2025-03-21 11:48:52,018 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-21 11:48:52,019 - INFO - total size: 114.6
+2025-03-21 11:48:52,019 - INFO - filesystem: Unknown
+2025-03-21 11:48:52,030 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-21 11:48:52,055 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-21 11:48:53,056 - INFO - system stats: cpu usage: 0.0,memory usage: 85.46484375
+2025-03-21 11:48:53,059 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:53,060 - INFO - device info fecthed successfully
+2025-03-21 11:48:53,063 - INFO - partititons on /dev/sda1 : None
+2025-03-21 11:48:53,064 - INFO - total size: 114.6
+2025-03-21 11:48:53,064 - INFO - filesystem: ext4
+2025-03-21 11:48:53,097 - INFO - free sapce recorded: 102.49
+2025-03-21 11:48:53,128 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-21 11:48:54,129 - INFO - system stats: cpu usage: 1.0,memory usage: 85.71484375
+2025-03-21 11:48:54,136 - INFO - /dev/nvme0n1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:54,137 - INFO - device info fecthed successfully
+2025-03-21 11:48:54,142 - INFO - partititons on /dev/nvme0n1 : /dev/nvme0n1p1,/dev/nvme0n1p2
+2025-03-21 11:48:54,142 - INFO - total size: 476.94
+2025-03-21 11:48:54,142 - INFO - filesystem: Unknown
+2025-03-21 11:48:54,183 - INFO - temperature of /dev/nvme0n1 found:34
+2025-03-21 11:48:54,205 - INFO - data for /dev/nvme0n1 entered into excel sheet.
+2025-03-21 11:48:55,205 - INFO - system stats: cpu usage: 0.0,memory usage: 85.71484375
+2025-03-21 11:48:55,211 - INFO - /dev/nvme0n1p1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:55,211 - INFO - device info fecthed successfully
+2025-03-21 11:48:55,219 - INFO - partititons on /dev/nvme0n1p1 : None
+2025-03-21 11:48:55,219 - INFO - total size: 1.05
+2025-03-21 11:48:55,219 - INFO - filesystem: vfat
+2025-03-21 11:48:55,267 - INFO - temperature of /dev/nvme0n1p1 found:34
+2025-03-21 11:48:55,283 - INFO - free sapce recorded: 1.04
+2025-03-21 11:48:55,302 - INFO - data for /dev/nvme0n1p1 entered into excel sheet.
+2025-03-21 11:48:56,303 - INFO - system stats: cpu usage: 0.0,memory usage: 85.71484375
+2025-03-21 11:48:56,306 - INFO - /dev/nvme0n1p2 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:56,306 - INFO - device info fecthed successfully
+2025-03-21 11:48:56,309 - INFO - partititons on /dev/nvme0n1p2 : None
+2025-03-21 11:48:56,309 - INFO - total size: 475.89
+2025-03-21 11:48:56,310 - INFO - filesystem: ext4
+2025-03-21 11:48:56,353 - INFO - temperature of /dev/nvme0n1p2 found:34
+2025-03-21 11:48:56,366 - INFO - free sapce recorded: 380.45
+2025-03-21 11:48:56,383 - INFO - data for /dev/nvme0n1p2 entered into excel sheet.
+2025-03-21 11:48:57,384 - INFO - system stats: cpu usage: 0.0,memory usage: 85.71484375
+2025-03-21 11:48:57,392 - INFO - /dev/sda found: collecting info------------------------------------------------------------
+2025-03-21 11:48:57,392 - INFO - device info fecthed successfully
+2025-03-21 11:48:57,399 - INFO - partititons on /dev/sda : /dev/sda1
+2025-03-21 11:48:57,399 - INFO - total size: 114.6
+2025-03-21 11:48:57,399 - INFO - filesystem: Unknown
+2025-03-21 11:48:57,415 - ERROR - Error retrieving temperature for /dev/sda: Command '['smartctl', '-A', '/dev/sda']' returned non-zero exit status 1.
+2025-03-21 11:48:57,441 - INFO - data for /dev/sda entered into excel sheet.
+2025-03-21 11:48:58,442 - INFO - system stats: cpu usage: 0.0,memory usage: 85.71484375
+2025-03-21 11:48:58,449 - INFO - /dev/sda1 found: collecting info------------------------------------------------------------
+2025-03-21 11:48:58,450 - INFO - device info fecthed successfully
+2025-03-21 11:48:58,458 - INFO - partititons on /dev/sda1 : None
+2025-03-21 11:48:58,458 - INFO - total size: 114.6
+2025-03-21 11:48:58,458 - INFO - filesystem: ext4
+2025-03-21 11:48:58,504 - INFO - free sapce recorded: 102.49
+2025-03-21 11:48:58,519 - INFO - data for /dev/sda1 entered into excel sheet.
+2025-03-21 11:48:59,520 - INFO - system stats: cpu usage: 0.0,memory usage: 85.71484375
+2025-03-21 11:48:59,520 - INFO - END
