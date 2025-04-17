@@ -252,13 +252,13 @@ try:
     time.sleep(0.5)  # Add a delay to ensure the device is ready
     read1=readcap()
     final_data = pd.concat([inq1, inq2, read1], axis=1)
-    with pd.ExcelWriter("/home/abhinav/storage_testing/reports/report.xlsx") as writer:
+    with pd.ExcelWriter("report.xlsx") as writer:
         final_data.to_excel(writer, sheet_name="Report", index=False)
     print("Data written to report.xlsx")
     current_user = os.getlogin()
     user_info = pwd.getpwnam(current_user)
     uid, gid = user_info.pw_uid, user_info.pw_gid
-    os.chown("/home/abhinav/storage_testing/reports/report.xlsx", uid, gid)
+    os.chown("report.xlsx", uid, gid)
     print(f"Changed ownership of report.xlsx to user: {current_user}")
 
 except usb.core.USBError as e:
