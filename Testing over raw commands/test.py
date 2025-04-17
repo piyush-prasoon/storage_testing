@@ -5,6 +5,9 @@ import time
 from write import write 
 from clear import clear
 from read import read
+from metadata import Inquiry1,Inquiry2,readcap
+import os
+import pwd
 
 # Find the USB device (adjust VID/PID if needed)
 dev = usb.core.find(idVendor=0x0781, idProduct=0x5591)
@@ -55,6 +58,12 @@ if ep_in is None or ep_out is None:
 
 #CALLING WRITE AND READ FUCNTIONS
 try:
+    met1 = Inquiry1(ep_in, ep_out, dev) 
+    met2 = Inquiry2(ep_in, ep_out, dev)
+    readcap1 = readcap(ep_in, ep_out, dev)
+
+    metadata = pd.concat([met1,met2,readcap1],axis = 1)
+
     tot = 2
     rep = {
         "size of data ": f"{tot} GB",
@@ -63,11 +72,15 @@ try:
     w_data = write(ep_in, ep_out, dev, tot)
     r_data = read(ep_in, ep_out, dev, tot)
     report = pd.concat([reads , w_data, r_data], axis=1)
-    with pd.ExcelWriter('test_report.xlsx') as writer:
+    with pd.ExcelWriter('test_report.xlsx',engine = "openpyxl") as writer:
+        metadata.to_excel(writer, sheet_name='metadata', index=False)
         report.to_excel(writer, sheet_name='Testing', index=False)
-        print("Data written to report.xlsx")
+        current_user = os.getlogin()
+        user_info = pwd.getpwnam(current_user)
+        uid, gid = user_info.pw_uid, user_info.pw_gid
+        os.chown("test_report.xlsx", uid, gid)
+        print("Data written to test_report.xlsx")
     clear(ep_in, ep_out, dev, tot)
-    
 
  
 except usb.core.USBError as e:

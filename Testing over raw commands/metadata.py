@@ -8,45 +8,8 @@ import re
 import pwd
 
 
-# Find USB device
-dev = usb.core.find(idVendor=0x0781, idProduct=0x5591)
-if dev is None:
-    raise ValueError("Device not found")
-print("Device found!")
 
-# Detach kernel driver if needed
-reattach = False
-if dev.is_kernel_driver_active(0):
-    dev.detach_kernel_driver(0)
-    reattach = True
-    time.sleep(0.5)
-
-dev.set_configuration()
-cfg = dev.get_active_configuration()
-
-# Locate Mass Storage interface
-intf = next((i for i in cfg if i.bInterfaceClass == 0x08), None)
-if intf is None:
-    raise RuntimeError("No Mass Storage interface found")
-intf_number = intf.bInterfaceNumber
-
-# Find endpoints
-ep_in = usb.util.find_descriptor(
-    intf,
-    custom_match=lambda e: usb.util.endpoint_direction(e.bEndpointAddress) == usb.util.ENDPOINT_IN and (e.bmAttributes & 0x3) == 2
-)
-ep_out = usb.util.find_descriptor(
-    intf,
-    custom_match=lambda e: usb.util.endpoint_direction(e.bEndpointAddress) == usb.util.ENDPOINT_OUT and (e.bmAttributes & 0x3) == 2
-)
-
-if not ep_in or not ep_out:
-    raise ValueError("Could not find bulk endpoints")
-
-print(f"IN endpoint:  0x{ep_in.bEndpointAddress:02x}")
-print(f"OUT endpoint: 0x{ep_out.bEndpointAddress:02x}")
-
-def Inquiry1():
+def Inquiry1(ep_in, ep_out, dev):
     
     CBW_SIGNATURE_inq1 = 0x43425355
     CBW_TAG_inq1 = 0xdeadbeef
@@ -78,32 +41,32 @@ def Inquiry1():
     assert len(cbw_inquiry) == 31, f"CBW must be 31 bytes, got {len(cbw_inquiry)}"
 
 
-    print("Sending CBW (INQUIRY)...")
+    ##print("Sending CBW (INQUIRY)...")
     dev.write(ep_out.bEndpointAddress, cbw_inquiry, timeout=1000)
-    print("Reading response data...")
+    ##print("Reading response data...")
     start_time = time.time()
     data = dev.read(ep_in.bEndpointAddress, CBW_DATA_LEN_inq1, timeout=1000)
     end_time = time.time()
-    print(f"Received {len(data)} bytes in {end_time - start_time:.6f} seconds")    
+    ##print(f"Received {len(data)} bytes in {end_time - start_time:.6f} seconds")    
     
-    print("Raw INQUIRY Data:")
-    print(" ".join(f"{byte:02x}" for byte in data))
+    #print("Raw INQUIRY Data:")
+    #print(" ".join(f"{byte:02x}" for byte in data))
 
 
 
     # Optional: Parse vendor/product strings from INQUIRY response
     version = data[2]
     vendor = bytes(data[8:15]).decode(errors='ignore').strip()
-    print(f"SCSI Version: {version:02x}")
-    print(f"device type: {vendor}")
+    ##print(f"SCSI Version: {version:02x}")
+    ##print(f"device type: {vendor}")
     device = bytes(data[16:31]).decode(errors='ignore').strip()
-    print(f"Unit: {device}")
+    ##print(f"Unit: {device}")
     time.sleep(1.0)
     try:
-        print("Reading CSW (INQUIRY)...")
+        ##print("Reading CSW (INQUIRY)...")
         cswi = dev.read(ep_in.bEndpointAddress, 16, timeout=5000)
-        print("CSW (INQUIRY):", " ".join(f"{b:02x}" for b in cswi))
-        print("Successfully received CSW for INQUIRY. Moving to next command.\n")
+        ##print("CSW (INQUIRY):", " ".join(f"{b:02x}" for b in cswi))
+        ##print("Successfully received CSW for INQUIRY. Moving to next command.\n")
 
     except usb.core.USBError:
         dev.clear_halt(ep_in.bEndpointAddress)
@@ -119,7 +82,7 @@ def Inquiry1():
 
     return inq1
 
-def Inquiry2():
+def Inquiry2(ep_in, ep_out, dev):
     
     CBW_SIGNATURE = 0x43425355
     CBW_TAG = 0xdeadbeef
@@ -151,34 +114,34 @@ def Inquiry2():
     assert len(cbw_inquiry) == 31, f"CBW must be 31 bytes, got {len(cbw_inquiry)}"
 
 
-    print("Sending CBW (INQUIRY)...")
+    #print("Sending CBW (INQUIRY)...")
     dev.write(ep_out.bEndpointAddress, cbw_inquiry, timeout=1000)
-    print("Reading response data...")
+    #print("Reading response data...")
     start_time = time.time()
     data = dev.read(ep_in.bEndpointAddress, CBW_DATA_LEN, timeout=1000)
     end_time = time.time()
-    print(f"Received {len(data)} bytes in {end_time - start_time:.6f} seconds")    
+    #print(f"Received {len(data)} bytes in {end_time - start_time:.6f} seconds")    
     
-    print("Raw INQUIRY Data:")
-    print(" ".join(f"{byte:02x}" for byte in data))
+    #print("Raw INQUIRY Data:")
+    #print(" ".join(f"{byte:02x}" for byte in data))
 
 
 
     # Optional: Parse vendor/product strings from INQUIRY response
     removablei = bool(data[1] & 0x80)
     additional_length = data[4]
-    print(f"Removable: {'Yes' if removablei else 'No'}")
-    print(f"Additional Length: {additional_length}")
+    #print(f"Removable: {'Yes' if removablei else 'No'}")
+    #print(f"Additional Length: {additional_length}")
     if data[1] == 0x80:
         page_length = data[3]
         serial = bytes(data[4:4 + page_length]).decode(errors='ignore').strip()
-        print(f"Unit Serial Number: {serial}")
+        #print(f"Unit Serial Number: {serial}")
     time.sleep(1.0)
     try:
-        print("Reading CSW (INQUIRY)...")
+        #print("Reading CSW (INQUIRY)...")
         csw = dev.read(ep_in.bEndpointAddress, 16, timeout=5000)
-        print("CSW (INQUIRY):", " ".join(f"{b:02x}" for b in csw))
-        print("Successfully received CSW for INQUIRY. Moving to next command.")
+        #print("CSW (INQUIRY):", " ".join(f"{b:02x}" for b in csw))
+        #print("Successfully received CSW for INQUIRY. Moving to next command.")
 
     except usb.core.USBError:
         dev.clear_halt(ep_in.bEndpointAddress)
@@ -192,7 +155,7 @@ def Inquiry2():
 
     return inq2
 
-def readcap():
+def readcap(ep_in, ep_out, dev):
 
     scsi_cmd2 = bytes([
         0x25,               # READ CAPACITY (10)
@@ -226,14 +189,14 @@ def readcap():
     data2= dev.read(ep_in.bEndpointAddress, CBW_DATA_LEN2, timeout=5000)
     total_blocks = struct.unpack(">I", data2[0:4])[0] + 1
     block_size = struct.unpack(">I", data2[4:8])[0]
-    print(f"Total blocks: {total_blocks}")
-    print(f"Block size: {block_size}")
+    #print(f"Total blocks: {total_blocks}")
+    #print(f"Block size: {block_size}")
     total_cap = total_blocks * block_size
-    print(f"Total capacity: {total_cap} bytes")
+    #print(f"Total capacity: {total_cap} bytes")
 
     csw2 = dev.read(ep_in.bEndpointAddress, 13, timeout=1000)
-    print("CSW (READ_CAP):", " ".join(f"{b:02x}" for b in csw2))
-    print("done")
+    #print("CSW (READ_CAP):", " ".join(f"{b:02x}" for b in csw2))
+    #print("done")
 
 
     dread1 = {
@@ -246,36 +209,3 @@ def readcap():
     return read1
 
 
-try:
-    inq1=Inquiry1()
-    inq2=Inquiry2()
-    time.sleep(0.5)  # Add a delay to ensure the device is ready
-    read1=readcap()
-    final_data = pd.concat([inq1, inq2, read1], axis=1)
-    with pd.ExcelWriter("report.xlsx") as writer:
-        final_data.to_excel(writer, sheet_name="Report", index=False)
-    print("Data written to report.xlsx")
-    current_user = os.getlogin()
-    user_info = pwd.getpwnam(current_user)
-    uid, gid = user_info.pw_uid, user_info.pw_gid
-    os.chown("report.xlsx", uid, gid)
-    print(f"Changed ownership of report.xlsx to user: {current_user}")
-
-except usb.core.USBError as e:
-    print("USB Error:", e)
-
-try:
-    dev.clear_halt(ep_in.bEndpointAddress)
-    dev.clear_halt(ep_out.bEndpointAddress)
-    print("Cleared endpoint stalls.")
-except Exception as e2:
-    print("Failed to clear halt:", e2)
-
-finally:
-    try:
-        usb.util.release_interface(dev, intf_number)
-        dev.attach_kernel_driver(intf_number)
-        print("Reattached kernel driver.")
-        print("Released interface.")
-    except Exception as cleanup_error:
-        print("Cleanup error:", cleanup_error)
